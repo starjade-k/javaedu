@@ -1,0 +1,25 @@
+package com.koreait.quiz;
+import java.util.Scanner;
+class Account{
+	//계좌 번호
+		String num;
+		//계좌 목록
+		String list;
+		// 예금
+		int account;
+		// 번호
+		int n;
+}
+
+public class quiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("1.계좌생성| 2.계좌 목록| 3.예금| 4.출금| 5.종료");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("선택 -> : ");
+		int n = sc.nextInt();
+		
+	}
+
+}

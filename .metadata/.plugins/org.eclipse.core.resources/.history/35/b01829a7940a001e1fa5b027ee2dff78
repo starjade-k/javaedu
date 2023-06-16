@@ -1,0 +1,49 @@
+package com.koreait.quiz;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+public class Account{
+	//계좌 번호
+		private String num;
+		//계좌 목록
+		private String[] li  = new String[3];
+		// 이름
+		private String name;
+		// 예금
+		private int wgold;
+		// 선택번호
+		private int n;
+		// 금액
+		private String gold;
+		
+		void create() {
+			List list = new ArrayList();
+			Account newAccount = new Account();
+			System.out.println("계좌 생성");
+			Scanner c = new Scanner(System.in);
+			
+			System.out.print("계좌 번호 : ");
+			newAccount.num = c.nextLine();
+			
+			System.out.print("이름 : ");
+			newAccount.name = c.nextLine();
+			
+			System.out.print("입금액 : ");
+			newAccount.gold = c.nextLine();
+			
+			li[0] = newAccount.num;
+			li[1] = newAccount.name;
+			li[2] = newAccount.gold;
+			
+			System.out.println("계좌가 생성되었습니다.");
+			
+		}
+		void checkList() {
+			System.out.println("계좌 목록");
+			for(int i = 0; i < li.length; i++ ) {
+				System.out.print(li[i]);
+			}
+			
+		}
+}

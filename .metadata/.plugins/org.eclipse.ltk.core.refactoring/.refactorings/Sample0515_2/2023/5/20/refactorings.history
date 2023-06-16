@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Exam0515&apos; to &apos;객체생성0515&apos;&#x0D;&#x0A;- Original project: &apos;Sample0515_2&apos;&#x0D;&#x0A;- Original element: &apos;Exam0515&apos;&#x0D;&#x0A;- Renamed element: &apos;객체생성0515&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exam0515&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Exam0515.java[Exam0515" matchStrategy="1" name="객체생성0515" qualified="false" references="true" similarDeclarations="false" stamp="1684222527360" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package com.koreait.exam_0609_5;
+
+public class A {
+	void useB() {
+		class B{
+			int field1 = 1;
+			
+			static int field2 = 2;
+			
+			B(){
+				System.out.println("B-생성자 실행");
+			}
+		}
+	}
+}

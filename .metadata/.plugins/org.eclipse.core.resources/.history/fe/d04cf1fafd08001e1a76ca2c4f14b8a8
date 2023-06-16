@@ -1,0 +1,5 @@
+package com.koreait.exam0612_1;
+
+public abstract class Shape {
+
+}

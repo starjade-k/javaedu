@@ -1,0 +1,2 @@
+ public int[] solution(int[] num_list) {
+        int[] answer = new int[2];

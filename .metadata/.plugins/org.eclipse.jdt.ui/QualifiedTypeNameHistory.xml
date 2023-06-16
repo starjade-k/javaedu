@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="pack1.A"/>
+    <fullyQualifiedTypeName name="pack2.B"/>
+    <fullyQualifiedTypeName name="pack3.C"/>
+    <fullyQualifiedTypeName name="pack4.D"/>
+    <fullyQualifiedTypeName name="com.koreait.exam0609.A.B"/>
+    <fullyQualifiedTypeName name="com.koreait.exam0609_3.A.B"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+</qualifiedTypeNameHistroy>

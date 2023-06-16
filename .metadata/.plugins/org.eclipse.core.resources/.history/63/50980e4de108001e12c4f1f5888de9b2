@@ -1,0 +1,8 @@
+package 연습;
+
+public class 연습 {
+	 public int[] solution(int[] num_list) {
+	        int[] answer = new int[2];
+
+	 }
+}

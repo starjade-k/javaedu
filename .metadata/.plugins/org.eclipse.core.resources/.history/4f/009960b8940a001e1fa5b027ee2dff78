@@ -1,0 +1,15 @@
+package com.koreait.quiz;
+
+
+
+public class quiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account ac = new Account();
+//		ac.create();
+		ac.checkList();
+//		System.out.println("1.계좌생성| 2.계좌 목록| 3.예금| 4.출금| 5.종료");
+	}
+
+}

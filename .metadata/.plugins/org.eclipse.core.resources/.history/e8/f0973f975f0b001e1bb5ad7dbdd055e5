@@ -1,0 +1,27 @@
+package com.koreait.exam0615_1;
+
+interface Unit3{
+	void move();
+}
+
+class HumanCamp{
+	private int speed = 10;
+	public Unit3 getMarine() {
+		class Marine3 implements Unit3{
+			public void move() {
+				System.out.printf("인간 유닛이 %d 속도로 이동 중\n", speed);
+			}
+		}
+		return new Marine3();
+	}
+}
+public class Inner1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HumanCamp hc = new HumanCamp();
+		Unit3 unit = hc.getMarine();
+		unit.move();
+	}
+
+}

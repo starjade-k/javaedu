@@ -1,0 +1,69 @@
+package com.koreait.quiz;
+import java.util.Scanner;
+
+public class quiz {
+	private static Account[] accountArray = new Account[100];
+	private static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		boolean run = true;
+		while (run) {
+			System.out.println("+---------------------------------------+");
+			System.out.println("1.계좌생성 | 2.계좌목록 | 3.예금 | 4.출금 | 5.종료");
+			System.out.println("+---------------------------------------+");
+			System.out.print("선택> ");
+			
+			int selectNo = scanner.nextInt();
+
+			if (selectNo == 1) {
+				createAccount();
+			} else if (selectNo == 2) {
+				accountList();
+			} else if (selectNo == 3) {
+				deposit();
+			} else if (selectNo == 4) {
+				withdraw();
+			} else if (selectNo == 5) {
+				run = false;
+			}
+		}
+		System.out.println("프로그램 종료");
+	}
+
+	//계좌생성하기
+	private static void createAccount() {
+		//작성 위치
+		System.out.println("계좌 생성");
+		System.out.println("계좌 번호 입력 : ");
+		String ano = scanner.nextLine();
+		
+		System.out.println("이름 입력 : ");
+		String owner = scanner.nextLine();
+		
+		System.out.println("입금액 : ");
+		int balance = scanner.nextInt();
+		
+		for(int i =0; i < accountArray.length; i++) {
+			accountArray[i] = new Account(ano,owner,balance);
+		}
+		System.out.println("계좌 생성 완료");
+		
+	}
+
+	//계좌목록보기
+	private static void accountList() {
+		//작성 위치
+	}
+
+	//예금하기
+	private static void deposit() {
+		//작성 위치, findAccount호출해서 이용		
+	}
+
+	//출금하기
+	private static void withdraw() {
+		//작성 위치, findAccount호출해서 이용
+	}
+	
+	
+}

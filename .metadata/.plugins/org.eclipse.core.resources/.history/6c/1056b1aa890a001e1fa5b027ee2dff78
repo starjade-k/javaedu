@@ -1,0 +1,20 @@
+package com.koreait.quiz;
+
+public class Account {
+	//계좌 번호
+	String num;
+	//계좌 목록
+	String list;
+	// 예금
+	int account;
+	
+	
+}
+public class run {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
